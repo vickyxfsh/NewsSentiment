@@ -3,6 +3,8 @@ import feedparser
 from transformers import pipeline
 import torch
 import pandas as pd
+import os
+os.environ["TRANSFORMERS_CACHE"] = "/tmp/transformers_cache"
 
 # Initialize the sentiment analysis pipeline
 @st.cache_resource(show_spinner=False)
