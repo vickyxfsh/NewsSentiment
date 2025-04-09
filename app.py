@@ -4,6 +4,7 @@ from transformers import pipeline
 import torch
 import pandas as pd
 import os
+from datetime import datetime
 os.environ["TRANSFORMERS_CACHE"] = "/tmp/transformers_cache"
 
 # Initialize the sentiment analysis pipeline
@@ -23,6 +24,9 @@ def fetch_news(ticker: str, keyword: str):
     total_score = 0
     num_articles = 0
 
+
+
+
     for entry in feed.entries:
         # Check if entry has a summary and filter by keyword
         summary = entry.get('summary', '')
@@ -33,12 +37,12 @@ def fetch_news(ticker: str, keyword: str):
 
         # Collect article data
         articles.append({
-            "Title": entry.get('title', 'N/A'),
-            "Link": entry.get('link', 'N/A'),
             "Published": entry.get('published', 'N/A'),
-            "Summary": summary,
+            "Title": entry.get('title', 'N/A'),
             "Sentiment": sentiment["label"],
-            "Score": sentiment["score"]
+            "Score": sentiment["score"],
+            "Summary": summary,
+            "Link": entry.get('link', 'N/A')
         })
 
         # Aggregate sentiment score
