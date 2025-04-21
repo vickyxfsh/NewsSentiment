@@ -14,13 +14,13 @@ With just a few clicks, you’ll spot emerging trends, market mood and share ins
 
 ## Table of Contents
 
-- [Demo](##Demo)
-- [Method](##Method)  
-- [Features](##Features)  
-- [Configuration](##Configuration)  
-- [Usage](##Usage)  
-- [Code Structure](##Code-structure)  
-- [Future Enhancements](##Future-Enhancements)
+- [Demo](#demo)
+- [Method](#method)  
+- [Features](#features)  
+- [Configuration](#configuration)  
+- [Usage](#usage)  
+- [Code Structure](#code-structure)  
+- [Future Enhancements](#future-enhancements)
 
 ---
 
