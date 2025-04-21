@@ -16,7 +16,7 @@ A Streamlit application that fetches news headlines for given stock tickers, per
 
 ## Demo
 
-[▶️ Watch the demo (MOV file)](./demo.mov)
+[▶️ Watch the demo (MOV file)](https://drive.google.com/file/d/1pbahfxDd6L6D0Z3cLbp91SWDscZj3YAl/view?usp=sharing)
 
 ## Features
 
