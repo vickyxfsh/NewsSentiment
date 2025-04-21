@@ -16,9 +16,7 @@ A Streamlit application that fetches news headlines for given stock tickers, per
 
 ## Demo
 
-<video src="./demo.mov" controls width="600">
-  Your browser doesn’t support HTML5 video.
-</video>
+[▶️ Watch the demo (MOV file)](./demo.mov)
 
 ## Features
 
