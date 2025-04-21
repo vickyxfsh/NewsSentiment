@@ -3,13 +3,11 @@ import nltk
 import re
 import pandas as pd
 
+# Load the Loughran-McDonald Dictionary
 df = pd.read_csv("LM-SA-2020.csv")
 print(df.head())
 
-# Sample lexicon dictionary from Loughran and McDonald
-# For illustration, we have a few sample entries.
-# In practice, load the full lexicon from a CSV or database.
-# Each word is mapped to a sentiment score (you can extend the categories as needed).
+# Each word is mapped to a sentiment score.
 # A positive word returns +1, negative returns -1, uncertain may return 0.
 LEXICON = {}
 for _, row in df.iterrows():
@@ -89,7 +87,7 @@ def interpret_lexicon_score(avg_score):
         return "Neutral sentiment."
 
 
-# Example: Using hard-coded financial news text (multi-paragraph text is supported)
+# Example: Using hard-coded financial news text
 if __name__ == "__main__":
     news_text = """With stocks in a steep decline and tariffs inducing recession jitters, investor patience may be tested.
     The notion that the Fed will rush to rescue investors is fading, as Federal Reserve Chair Jerome Powell stated the tariffs are larger than expected.
