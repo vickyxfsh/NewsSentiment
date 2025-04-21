@@ -1,7 +1,5 @@
 # Sentiment Dashboard Streamlit App
 
-## Introduction
-
 Front‑desk bankers need to deliver fast, data-driven news updates—but manually scanning headlines takes time and can miss critical signals. Our Streamlit app streamlines that process. It automatically:
 
 1. **Pulls the latest headlines** for any stock ticker from [Yahoo](https://finance.yahoo.com/)
@@ -12,32 +10,28 @@ Front‑desk bankers need to deliver fast, data-driven news updates—but manual
 
 With just a few clicks, you’ll spot emerging trends, market mood and share insights.
 
-## Key Features
-
-- **Automated News Collection:** Fetches and filters Yahoo Finance RSS feeds in real time.  
-- **Domain‑Specific NLP:** Uses [FinBERT](https://huggingface.co/ProsusAI/finbert), a BERT model fine‑tuned on financial text, for more accurate sentiment scores.  
-- **Flexible Views:** Toggle between single‑ticker analysis and industry‑wide overviews.  
-- **Interactive UI:** Sidebar controls, sortable tables, and expandable article details.  
-
-## Method
-
-[FinBERT](https://huggingface.co/ProsusAI/finbert) is built by further training BERT on a large financial corpus, enabling it to understand sector jargon and deliver reliable sentiment classifications for financial news.
-
 ---
 
 ## Table of Contents
 
-- [Features](##features)  
-- [Configuration](##configuration)  
-- [Usage](##usage)  
-- [Code Structure](##code-structure)  
-- [Future Enhancements](##future-enhancements)
+- [Demo](##Demo)
+- [Method](##Method)  
+- [Features](##Features)  
+- [Configuration](##Configuration)  
+- [Usage](##Usage)  
+- [Code Structure](##Code-structure)  
+- [Future Enhancements](##Future-Enhancements)
 
 ---
 
 ## Demo
 
 [▶️ Watch the demo (MOV file)](https://drive.google.com/file/d/1pbahfxDd6L6D0Z3cLbp91SWDscZj3YAl/view?usp=sharing)
+
+## Method
+
+[FinBERT](https://huggingface.co/ProsusAI/finbert) is built by further training BERT on a large financial corpus, enabling it to understand sector jargon and deliver reliable sentiment classifications for financial news.
+
 
 ## Features
 
