@@ -26,7 +26,7 @@ With just a few clicks, you’ll spot emerging trends, market mood and share ins
 
 ## Demo
 
-[▶️ Watch the demo (MOV file)](https://drive.google.com/file/d/1pbahfxDd6L6D0Z3cLbp91SWDscZj3YAl/view?usp=sharing)
+[▶️ Watch the demo (MOV file)](https://www.dropbox.com/scl/fi/urc8244e2dhj2cddu56et/demo.mp4?rlkey=altjpmc0vli2ntuqhjrqs5fs3&st=385mj0j0&dl=0)
 
 ## Method
 
