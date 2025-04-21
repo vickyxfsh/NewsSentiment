@@ -14,6 +14,12 @@ A Streamlit application that fetches news headlines for given stock tickers, per
 
 ---
 
+## Demo
+
+<video src="./demo.mov" controls width="600">
+  Your browser doesn’t support HTML5 video.
+</video>
+
 ## Features
 
 - **News Sentiment Analyzer**: Filter articles by keyword and view per‑article sentiment (Positive/Neutral/Negative) with summary and publication date.  
