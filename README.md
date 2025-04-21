@@ -11,7 +11,7 @@ A Streamlit application that fetches news headlines for given stock tickers, per
 - [Usage](#usage)  
 - [Code Structure](#code-structure)  
 - [Future Enhancements](#future-enhancements)
-- 
+
 ---
 
 ## Features
@@ -41,15 +41,16 @@ The app requires a Hugging Face token to access the FinBERT model:
 
   ```bash
   export HF_TOKEN="your_huggingface_token_here"
+  ```
+---
 
-  ---
-
-  ## Usage
+## Usage
 
 Run the Streamlit app locally:
 
 ```bash
 streamlit run app.py
+```
 
 1. Open the provided local URL (e.g., `http://localhost:8501`).
 
