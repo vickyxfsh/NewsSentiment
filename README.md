@@ -1,16 +1,37 @@
 # Sentiment Dashboard Streamlit App
 
-A Streamlit application that fetches news headlines for given stock tickers, performs sentiment analysis using FinBERT, and displays results in an interactive dashboard. Supports single‑ticker analysis and industry‑wide trend checks.
+## Introduction
+
+Front‑desk bankers need to deliver fast, data-driven news updates—but manually scanning headlines takes time and can miss critical signals. Our Streamlit app streamlines that process. It automatically:
+
+1. **Pulls the latest headlines** for any stock ticker from [Yahoo](https://finance.yahoo.com/)
+2. **Runs FinBERT sentiment analysis** to classify each article as positive, neutral, or negative 
+3. **Displays results in a clear, interactive dashboard** so you can:
+   - Drill down on a single stock’s news sentiment  
+   - Compare sentiment trends across sectors at a glance  
+
+With just a few clicks, you’ll spot emerging trends, market mood and share insights.
+
+## Key Features
+
+- **Automated News Collection:** Fetches and filters Yahoo Finance RSS feeds in real time.  
+- **Domain‑Specific NLP:** Uses [FinBERT](https://huggingface.co/ProsusAI/finbert), a BERT model fine‑tuned on financial text, for more accurate sentiment scores.  
+- **Flexible Views:** Toggle between single‑ticker analysis and industry‑wide overviews.  
+- **Interactive UI:** Sidebar controls, sortable tables, and expandable article details.  
+
+## Method
+
+[FinBERT](https://huggingface.co/ProsusAI/finbert) is built by further training BERT on a large financial corpus, enabling it to understand sector jargon and deliver reliable sentiment classifications for financial news.
 
 ---
 
 ## Table of Contents
 
-- [Features](#features)  
-- [Configuration](#configuration)  
-- [Usage](#usage)  
-- [Code Structure](#code-structure)  
-- [Future Enhancements](#future-enhancements)
+- [Features](##features)  
+- [Configuration](##configuration)  
+- [Usage](##usage)  
+- [Code Structure](##code-structure)  
+- [Future Enhancements](##future-enhancements)
 
 ---
 
@@ -79,8 +100,8 @@ streamlit run app.py
 
 - Historical sentiment trends with time‑series charts.  
 - Custom date range and keyword filtering.  
-- Interactive visualizations (bar/line charts).  
-- Export results to CSV/Excel/PDF.  
+- Interactive visualizations (bar/line charts).
+- Support more industries and companies.
 
 
 
